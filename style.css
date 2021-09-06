@@ -1,0 +1,123 @@
+hr
+{
+    width: 100px;
+    border: 2px solid red;
+   
+margin: 40px auto;
+}
+.iframe1
+{
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+}
+.iframe1 iframe
+{
+    width: 100%;
+    height:100%
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img1{
+        text-align: center;
+    }
+     img{
+    width: 300px;
+
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img1{
+        text-align: center;
+    }
+     img{
+    width: 600px;
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .img1{
+        text-align: center;
+    }
+    img{
+        width: 800px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img1{
+        text-align: center;
+    }
+    img{
+        width: 700px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .img1{
+        text-align: center;
+        
+    }
+}
+#pgallery{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+#pgallery>img{
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    text-align: center;
+}
+#pcontact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    #pcontact> div ul{
+        width: 250px;
+padding: 10px;
+        margin: 20px;
+        text-align: center;
+    }
+    ul
+    {
+        list-style: none;
+
+    }
+    .link{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        width: 400px;
+        padding: 10px;
+      
+        background-color: palevioletred;
+        line-height: 10px;
+    }
+    .link:hover{
+        color: white;
+    }
+   .btnbtm{
+       color: white;
+   background-color:  palevioletred;
+   border: 2px solid white;
+   border-radius: 20px;
+   width: 90px;
+   height: 30px;
+   text-align: center;
+   
+    }
+    .btnbtm:hover
+    {
+        border-width: 3px;
+    }
